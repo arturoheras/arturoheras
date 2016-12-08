@@ -1,11 +1,5 @@
-<div class="idiomas" style="display:none">
-  site es: {{site.collections.es.idioma}}
-  {% for lang in site.collections %}
-    testing:{{lang}} tie;
-    <span><a href='{{base}}/{{lang[1]["label"]}}'>{{lang[1]["idioma"]}}</a></span>
-{% endfor %}
+<div class="idiomas">
+    <span><a href='{{base}}/en'>English</a></span>
+    <span><a href='{{base}}/es'>Español</a></span>
+    <span><a href='{{base}}/ru'>Pусский</a></span>
 </div>
-#####
-{% for c in site.collections %}
- {{ c[0] }}
-{% endfor %}
