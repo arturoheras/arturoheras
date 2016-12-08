@@ -5,3 +5,17 @@
     <span><a href='{{base}}/{{lang[1]["label"]}}'>{{lang[1]["idioma"]}}</a></span>
 {% endfor %}
 </div>
+{% for collection in site.collections %}
+
+  {% assign name = collection.label %}
+
+  <section>
+    <h1>{{ name }}</h1>
+
+    {% for page in site.[name] %}
+    {{page}}
+    {% endfor %}
+    
+  </section>
+
+{% endfor %}
