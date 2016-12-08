@@ -1,0 +1,5 @@
+<div class="idiomas">
+  {% for lang in site.collections %}
+    <span><a href='{{base}}/{{lang[1]["label"]}}'>{{lang[1]["idioma"]}}</a></span>
+{% endfor %}
+</div>
