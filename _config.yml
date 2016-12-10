@@ -10,8 +10,8 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Arturo de Las Heras"
-resume_title:                   "Ingeniero Técnico industrial"
+resume_name:                    "Arturo de las Heras"
+resume_title:                   "Ingeniero Electrónico Industrial"
 resume_contact_email:
   "info@arturoheras.com"
 
@@ -34,13 +34,13 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
+  #resume_github_url:            "https://"
+  #resume_twitter_url:           "http://"
+  #resume_dribbble_url:          "https://"
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/arturoheras"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
+  resume_website_url:           "http://arturoheras.com"
 
 # Design settings
 resume_theme:                   default
